@@ -6,6 +6,7 @@ function ProfileCard({ writer }) {
   const handleClick = (bioData) => {
     setShowBio(!showBio);
   };
+  console.log(writer);
 
   return (
     <div className="card">
